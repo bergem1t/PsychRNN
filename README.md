@@ -1,9 +1,15 @@
 # PsychRNN
-[![Build Status](https://api.travis-ci.com/murraylab/PsychRNN.svg?branch=master)](https://api.travis-ci.com/murraylab/PsychRNN)
+[![tests](https://github.com/murraylab/PsychRNN/workflows/tests/badge.svg)](https://github.com/murraylab/PsychRNN/actions?query=workflow%3Atests)
 [![codecov](https://codecov.io/gh/murraylab/PsychRNN/branch/master/graph/badge.svg)](https://codecov.io/gh/murraylab/PsychRNN)
 [![Documentation Status](https://readthedocs.org/projects/psychrnn/badge/?version=latest)](https://psychrnn.readthedocs.io/en/latest/?badge=latest)
 
-**Preprint coming July 2020!**
+**Paper:**
+
+Ehrlich, D. B.<sup>\*</sup>, Stone, J. T.<sup>\*</sup>, Brandfonbrener, D., Atanasov, A., & Murray, J. D. (2021). PsychRNN: An Accessible and Flexible Python Package for Training Recurrent Neural Network Models on Cognitive Tasks. *ENeuro, 8*(1). [\[DOI\]](https://doi.org/10.1523/ENEURO.0427-20.2020)
+
+**Presentation:**
+
+Prefer listening to a 15 minute talk to see if PsychRNN is for you? Check out our [talk at Neuromatch 3.0](https://www.youtube.com/watch?v=OY_Ix-QwB4Y).
 
 ## Overview
 
@@ -13,7 +19,7 @@ This package is intended to help cognitive scientists easily translate task desi
 
 We have isolated the front-end task design, in which users can intuitively describe the conditional logic of their task from the backend where gradient descent based optimization occurs. This is intended to facilitate researchers who might otherwise not have an easy implementation available to design and test hypothesis regarding the behavior of recurrent neural networks in different task environements.
 
-Release announcments are posted on the [psychrnn mailing list](https://www.freelists.org/list/psychrnn>) and on [GitHub](https://github.com/murraylab/PsychRNN)
+Release announcments are posted on the [psychrnn mailing list](https://www.freelists.org/list/psychrnn) and on [GitHub](https://github.com/murraylab/PsychRNN)
 
 Code is written and upkept by: [Daniel B. Ehrlich](https://github.com/dbehrlich>), [Jasmine T. Stone](https://github.com/syncrostone/), [David Brandfonbrener](https://github.com/davidbrandfonbrener), and [Alex Atanasov](https://github.com/ABAtanasov).
 
